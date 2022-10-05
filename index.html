@@ -1,0 +1,378 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Naman</title>
+  </head>
+  <body class="font-nunito">
+    <!-- into section -->
+    <div
+      class="h-1/2 lg:h-screen bg-gradient-to-t from-indigo-200 dark:from-slate-800 dark:to-slate-900 relative overflow-hidden"
+    >
+      <!-- navbar -->
+      <nav class="w-full fixed top-0 bg-white z-10 dark:bg-slate-900">
+        <div class="container mx-auto py-5 flex items-center justify-between">
+          <div class="flex items-center gap-2">
+            <img class="w-8" src="./img/logo.png" alt="" />
+            <span class="text-2xl font-bold text-indigo-900 dark:text-white"
+              >Neemo</span
+            >
+          </div>
+          <ul
+            class="hidden md:flex space-x-10 text-gray-600 dark:text-gray-100 font-bold text-sm uppercase"
+          >
+            <li class="hover:text-gray-500">
+              <a href="#">homepage</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#about">Message</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#services">You</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#works">Tracks</a>
+            </li>
+            <li class="hover:text-gray-500">
+              <a href="#works">Words</a>
+            </li>
+           
+          </ul>
+          <img
+            id="moon"
+            src="./img/moon.png"
+            class="hidden md:block w-5 cursor-pointer"
+            alt=""
+          />
+          <div id="hamburger" class="space-y-1 md:hidden cursor-pointer z-20">
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+            <div class="w-6 h-0.5 bg-black"></div>
+          </div>
+          <ul
+            id="menu"
+            class="hidden bg-indigo-900 absolute left-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center"
+          >
+            <li>
+              <a id="hLink" href="#">homepage</a>
+            </li>
+            <li>
+              <a id="hLink" href="#about">Message</a>
+            </li>
+            <li>
+              <a id="hLink" href="#services">You</a>
+            </li>
+            <li>
+              <a id="hLink" href="#works">Tracks</a>
+            </li>
+            <li>
+              <a id="hLink" href="#contact">Words</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <!-- intro content -->
+      <!-- image -->
+      <img
+        class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover"
+        src="./img/new.png"
+        alt=""
+      />
+      <!-- circle -->
+      <div
+        class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big bg-indigo-900 rounded-full -z-10"
+      ></div>
+      <!-- animated text -->
+      <div
+        class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl font-bold"
+      >
+        <span class="text-gray-600">Neemo</span>
+        <p id="text" class="text-red-500"></p>
+      </div>
+      <!-- texts -->
+      <div
+        class="hidden lg:flex flex-col gap-5 rounded-md shadow-lg absolute top-0 bottom-0 m-auto right-10 bg-white dark:bg-slate-900 dark:shadow-slate-800 p-6 h-fit w-1/3"
+      >
+        <h1 class="text-4xl font-bold text-indigo-900">Dear Neemo</h1>
+        <p class="text-gray-400">
+          On your 20th nameday I have made an effort to create something out of my skills to appreciate and celebrate "YOU", I hope you'll like my gesture.        </p>
+        <!-- <a
+          class="bg-indigo-600 text-white text-xl px-3 py-2 rounded-md font-semibold w-fit"
+          href="#contact"
+          >Hire Me</a
+        > -->
+      </div>
+    </div>
+    <!-- about -->
+    <div id="about" class="px-10 dark:bg-slate-900">
+      <div
+        class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20"
+      >
+        <!-- left -->
+        <div class="relative">
+          <img
+            class="h-1/4 absolute top-0 left-0 -z-10"
+            src="./img/dots.png"
+            alt=""
+          />
+          <div class="h-full rounded-full overflow-hidden">
+            <img src="./img/portrait.jpeg" alt="" />
+          </div>
+        </div>
+        <!-- right -->
+        <div class="my-auto flex flex-col gap-3">
+          <h1 class="text-indigo-600 font-bold">Message</h1>
+          <h1 class="text-3xl font-medium dark:text-white">Mun tu shudam tu mun shudi
+            
+            </h1>
+          <h1 class="text-3xl font-medium dark:text-white">
+            Mun tu shudam tu jaan shudi
+          </h1>
+          <p class="text-gray-400">
+            Neemo…as an engineer, my job is to figure out how and why of every technical things going around. But I don’t think I’ll ever understand how someone like me could get to be with someone like you. You know…maybe…I don’t need to understand it, I just need to be grateful. I love you. And thanks for being on this planet I am forever grateful for your existence. Happy Birthday to you."
+          </p>
+          <!-- <h2 class="text-gray-400 font-medium">HTML</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-full bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+          <h2 class="text-gray-400 font-medium">Javascript</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-4/6 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div>
+          <h2 class="text-gray-400 font-medium">React</h2>
+          <div class="w-full bg-gray-200 h-1.5 rounded-md">
+            <div class="w-5/6 bg-indigo-600 h-1.5 rounded-md"></div>
+          </div> -->
+        </div>
+      </div>
+    </div>
+    <!-- services -->
+    <div id="services" class="dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <!-- <h1 class="text-indigo-600 font-bold">SERVICES</h1> -->
+          <h1 class="text-3xl dark:text-white">You</h1>
+          <p class="w-1/2 text-center text-gray-400">
+            Whenever I close my eyes these images flash in my head and put a smile on my face.
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-4 my-3 md:my-10 flex flex-col gap-3"
+          >
+            <img src="./img/1.jpeg" alt="">
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+          <img src="./img/2.jpeg" alt="">
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+          <img src="./img/3.jpeg" alt="">
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+          <img src="./img/4.jpeg" alt="">
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+          <img src="./img/5.jpeg" alt="">
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+          <img src="./img/6.jpeg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- works -->
+    <div id="works" class="py-40 dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          <!-- <h1 class="text-indigo-600 font-bold">PORTFOLIO</h1> -->
+          <h1 class="text-3xl dark:text-white">Tracks</h1>
+          <p class="w-1/2 text-center text-gray-400">
+            Here I have picked some of our all time favourite tracks.
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class="grid-container">
+          <!-- card -->
+          <div
+            class="tracks "
+          >
+          <iframe width="250" height="250" src="https://www.youtube.com/embed/IsaOXzb4Uh0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <!-- card -->
+          <div
+            class=""
+          >
+          <iframe width="250" height="250" src="https://www.youtube.com/embed/WRkIL7aDyEE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <!-- card -->
+          <div
+            class="tracks "
+          >
+          <iframe width="250" height="250" src="https://www.youtube.com/embed/HKVAmfHuURI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <!-- card -->
+          <div
+            class="tracks "
+          >
+          <iframe width="250" height="250" src="https://www.youtube.com/embed/4lbMT-bGGSs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <!-- card -->
+          <div
+            class="tracks "
+          >
+          <iframe width="250" height="250" src="https://www.youtube.com/embed/UM0SSu8iclw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <!-- card -->
+          <div
+            class="tracks "
+          >
+          <iframe width="250" height="250" src="https://www.youtube.com/embed/nB7nGcW9TyE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <!-- card -->
+          <div
+            class="tracks "
+          >
+          <iframe width="250" height="250" src="https://www.youtube.com/embed/Y2zc2IeVX_g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+          <!-- card -->
+          <div
+            class="tracks "
+          >
+          <iframe width="250" height="250" src="https://www.youtube.com/embed/FbGcW0gChGw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- words -->
+    <div id="works" class="py-40 dark:bg-slate-900">
+      <div class="container mx-auto">
+        <!-- top -->
+        <div class="flex flex-col gap-3 items-center">
+          
+          <h1 class="text-3xl dark:text-white">Words</h1>
+          <p class="w-1/2 text-center text-gray-400">
+            some of my favourite couplets that remind me of you.
+          </p>
+        </div>
+        <!-- bottom -->
+        <div class="p-5 sm:p-0 flex flex-wrap justify-between">
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            
+            
+            <p class="text-gray-400">
+              Mun tu shudam tu mun shudi,mun tun shudam tu jaan shudi
+              <br>
+              Taakas na guyad baad azeen, mun deegaram tu deegari
+            </p>
+            
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            
+            <p class="text-gray-400">
+              Chaand si mehbooba ho meri kab aisa maine socha tha,
+              <br>
+              Haan tum bilkul waisi ho jaisa maine socha tha.
+            </p>
+            
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            
+            <p class="text-gray-400">
+              Ek pyaar ka nagma hai, maujo ki rawani hai
+              <br>
+              Zindagi aur kuch bhi nahi, teri meri kahani hai.
+            </p>
+            
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            
+            <p class="text-gray-400">
+              Pehla nasha
+              Pehla khumaar
+              Naya pyaar hai naya intezaar
+              Kar loon main kya apna haal
+              Aye dil-e-bekaraar
+              Mere dil-e-bekaraar
+              Tu hi bata
+            </p>
+           
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            
+            <p class="text-gray-400">
+              Soye armaano ko tu jaga ke to dekh,
+              <br>
+              Saare haq hai tujhe bus jata ke to dekh.
+
+            </p>
+            
+          </div>
+          <!-- card -->
+          <div
+            class="w-full md:w-4/12 shadow-xl rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3"
+          >
+            
+            <p class="text-gray-400">
+             Tumhe dekhkar jo aa jaati hai chehre pe raunak,<br>
+             Usse tum samjhti ho ki bimaar ka haal achha hai.
+            </p>
+           
+          </div>
+        </div>
+      </div>
+    </div>
+    
+    <!-- footer -->
+    <div class="w-full bg-gray-800">
+      <div class="container mx-auto py-5 flex items-center justify-between">
+        
+        <span class="hidden md:block font-medium text-white"
+          >© 2022. Made with ♥️ by Harsh Jha.</span
+        >
+        
+      </div>
+    </div>
+    <script src="./app.js"></script>
+    <script src="./autotyping.js"></script>
+  </body>
+</html>
